@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.screen{
+    width: 600px;
+    height: 400px;
+    background: grey;
+    margin-top: 10%;
+    float: left;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+.screen .circle{
+    width: 150px;
+    height: 120px;
+    background:rgb(139, 139, 81);
+    border-radius: 100%;
+    position: absolute;
+    bottom: 100px;
+    right: 220px;
+    background-position: center;
+    background-size: cover;
+}
+form input{
+    display: block;
+    width:200px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+  
+}
+.inputs{
+    float: left;
+    margin-top: 10%;
+    margin-left: 40px;
+}
